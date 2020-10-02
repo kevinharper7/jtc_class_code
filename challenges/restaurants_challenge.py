@@ -32,7 +32,6 @@ print(f"The latitude for the restaurant is {restaurant['latitude']} and the long
 print(f"The address of the restaurant is :{restaurant_addy}")
 print(f"The URL for the restaurant is:{restaurant['url']}")
 
-
 print()
 
 # print("Question 2")
@@ -61,9 +60,6 @@ fav_restaurants = {
       "Aunts and Uncles":["1407 Nostrand Ave, Brooklyn, NY 11226", "Salad" , "10am - 11pm"],      
       "Chun_vegetarian": ["582 Nostrand Ave, Brooklyn, NY 11216", "Oyster Mushrooms", "12pm - 12am"],
       "Juices For Life": ["277 Malcolm X Blvd, Brooklyn, NY 11233", "Banana Shake Special" , "7am - 7pm"]   
-
-     
-
 }
 
 print(fav_restaurants) 
@@ -97,8 +93,6 @@ print(fav_restaurants["Juices For Life"])
 fav_restaurants["Juices For Life"][2] = "9am - 5pm"
 
 print(fav_restaurants["Juices For Life"])
-
-
 
 print(fav_restaurants)
 

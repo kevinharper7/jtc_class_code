@@ -92,13 +92,13 @@ print(fav_restaurants)
 # # TODO: Print the old and new open hours of the restaurant by accessing those fields from the dictionary.
 # # TODO: Print the updated dictionary.
 
-old_hrs = "10am - 11pm"
-new_hrs = "9am - 5pm"
+print(fav_restaurants["Juices For Life"])
 
 fav_restaurants["Juices For Life"][2] = "9am - 5pm"
 
-print(f"The old hrs for Aunts and Uncles is: {old_hrs}")
-print(f"The new hrs for Aunts and Uncles is: {new_hrs}")
+print(fav_restaurants["Juices For Life"])
+
+
 
 print(fav_restaurants)
 
